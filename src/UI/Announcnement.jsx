@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
-import Image1 from '../assets/21438 1.png'; 
-import Image2 from '../assets/21438 1 (1).png'; 
-import Image3 from '../assets/21438 1 (2).png'; 
+import Image1 from '../layout/21438 1 (1).png'; 
+import Image2 from '../layout/21438 1 (2).png'; 
+import Image3 from '../layout/21438 1.png'; 
 
 const images = [Image1, Image2, Image3]; 
 
