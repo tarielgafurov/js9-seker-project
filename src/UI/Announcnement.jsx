@@ -28,7 +28,7 @@ const Announcement = () => {
           </GlobalImage>
            <PointStyle>
             <div></div>
-            <div></div>
+            <StyleDiv></StyleDiv>
             <div></div>
            </PointStyle>
         </ImageTransition>
@@ -57,7 +57,7 @@ const GlobalImage = styled.div`
   justify-content: center;
 
   img {
-    width: 600px;
+    width: 700px;
     height: 300px;
     position: absolute;
     transition: transform 1s ease-in-out, opacity 1s ease-in-out;
@@ -81,6 +81,16 @@ div{
   height: 5px;
   border: 1px solid red;
   border-radius: 100px;
-  margin-left: 10px;
+  margin-left: 15px;
+  margin-top: 10px;
 }
 `
+
+const StyleDiv = styled.div`
+  background-color: red;
+  width: 5px;
+  height: 5px;
+  border: 1px solid red;
+  border-radius: 100px;
+`
+
