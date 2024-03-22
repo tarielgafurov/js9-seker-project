@@ -10,14 +10,14 @@ const ImagePages = () => {
     const file = e.target.files[0]
     if (file) {
       const imageUrl = URL.createObjectURL(file)
-      setImg(imageUrl);
+      setImg(imageUrl)
     }
   }
 
   const SelectInputClick = () => InputRef.current.click()
 
   const DeleteHandler = () => {
-    setImg(null);
+    setImg(null)
   }
 
   return (
