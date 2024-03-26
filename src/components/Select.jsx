@@ -6,21 +6,18 @@ const Select = () => {
 
     const handleChange = (e)=>{
         const test = e.target.value
-        console.log(test);
         setSelectOption(prevOption => [...prevOption, test]);
     }
-
   return (
     <div>
     <ContainerSelectStyled>
         <select onChange={handleChange}>
             <option value="">Цена</option>
-            <option value="1000">1000</option>
-            <option value="2000">2000</option>
-            <option value="3000">3000</option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
         </select>
     </ContainerSelectStyled>
-        {/* <h1>{selectOption}</h1> */}
         {
             selectOption.map((el, index)=>{
                 return <h1 key={index}>{el}</h1>
