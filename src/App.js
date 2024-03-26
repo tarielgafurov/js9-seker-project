@@ -15,8 +15,8 @@ function App() {
   return (
     <div className="App">
       {/* <Checkbok/> */}
-    {modal &&  <Modal onClose={closeModal}>vhrbhb</Modal>}
-   {/* <Slider/> */}
+    {/* {modal &&  <Modal onClose={closeModal}>vhrbhb</Modal>} */}
+   <Slider/>
 
       
     </div>
